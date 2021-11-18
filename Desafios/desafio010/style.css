@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #e9e6c3;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+header {
+    height: 175px;
+    width: 100%;
+    background-image: linear-gradient(#3ddc84, #1a5c38);
+    margin-top: -21px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 1px 3px black;
+    padding-top: 30px;
+}
+
+p#cabeça {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+nav {
+    padding: 20px 0px 0px 5px;
+}
+
+a {
+    color: #a7c0b1;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;    
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+a#linktxt {
+    color: #1a5c39;
+    font-weight: bold;
+    
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 935px;
+    height: 100%;
+    margin: -19px auto auto auto;
+
+
+}
+
+h2 {
+    font-family: 'Android';
+    font-weight: normal;
+    color: #1a5c39;
+    padding: 15px 10px 0px 0px;
+    margin: 20px 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 15px 0px 15px;
+}
+
+h3 {
+    background-image: linear-gradient(to right,#c5ebd6, white);
+    font-family: 'Android';
+    font-weight: normal;
+    padding: 0px 10px 0px 10px;
+    margin: 20px 15px;
+    color: darkgreen;
+}
+
+img {
+    margin: 20px 15px;
+}
